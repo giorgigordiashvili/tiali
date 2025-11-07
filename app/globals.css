@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Tiali';
-  src: url('/fonts/Tiali #1.otf') format('opentype');
+  font-family: "Tiali";
+  src: url("/fonts/tiali-font.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -15,11 +16,14 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-tiali: 'Tiali', serif;
+  --font-family-sans: "Tiali", ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Tiali', serif;
+}
+
+* {
+  font-family: "Tiali", ui-sans-serif, system-ui, sans-serif;
 }
