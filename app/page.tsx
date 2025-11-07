@@ -15,9 +15,6 @@ export default function Home() {
         <h1 className="text-5xl md:text-7xl font-normal text-white text-center">
           Coming Soon
         </h1>
-        <p className="text-xl md:text-2xl text-white/90 text-center max-w-md">
-          Georgian Restaurant
-        </p>
       </div>
     </main>
   );
