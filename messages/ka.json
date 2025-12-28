@@ -1,0 +1,21 @@
+{
+  "home": {
+    "title": "ქართული ფასთფუდი",
+    "comingSoon": "ძალიან მალე",
+    "address": "მისამართი",
+    "addressValue": "თბილისი, ვასო აბაშიძის 4",
+    "phone": "ტელეფონი",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "google": "Google",
+    "menu": "მენიუ"
+  },
+  "menu": {
+    "title": "მენიუ - თიალი",
+    "description": "თიალი ქართული ფასთფუდის მენიუ"
+  },
+  "metadata": {
+    "title": "თიალი - ქართული ფასთფუდი",
+    "description": "ქართული ფასთფუდი რესტორანი"
+  }
+}

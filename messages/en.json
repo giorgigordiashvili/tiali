@@ -1,0 +1,21 @@
+{
+  "home": {
+    "title": "Georgian Fast Food",
+    "comingSoon": "Coming Soon",
+    "address": "Address",
+    "addressValue": "4 Vaso Abashidze Street, Tbilisi",
+    "phone": "Phone",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "google": "Google",
+    "menu": "Menu"
+  },
+  "menu": {
+    "title": "Menu - Tiali",
+    "description": "Tiali Georgian Fast Food Menu"
+  },
+  "metadata": {
+    "title": "Tiali - Georgian Fast Food",
+    "description": "Georgian Fast Food Restaurant"
+  }
+}
