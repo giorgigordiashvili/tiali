@@ -119,11 +119,11 @@ export default function PDFViewer({ file }: PDFViewerProps) {
         style={{ WebkitOverflowScrolling: 'touch' }}
       >
         <div
-          className="flex flex-col items-center gap-4 py-4"
+          className="flex flex-col items-center gap-4 py-4 transition-transform duration-150 ease-out"
           style={{
+            transform: `scale(${scale})`,
+            transformOrigin: 'top center',
             minWidth: scale > 1 ? `${baseWidth * scale}px` : '100%',
-            paddingLeft: scale > 1 ? '16px' : '0',
-            paddingRight: scale > 1 ? '16px' : '0'
           }}
         >
           <Document
@@ -137,7 +137,7 @@ export default function PDFViewer({ file }: PDFViewerProps) {
                 key={`page_${index + 1}`}
                 pageNumber={index + 1}
                 className="shadow-lg rounded-lg overflow-hidden"
-                width={baseWidth * scale}
+                width={baseWidth}
                 renderTextLayer={false}
                 renderAnnotationLayer={false}
               />

@@ -18,11 +18,11 @@ export default function Home() {
           width={300}
           height={300}
           priority
-          className="rounded-lg"
+          className="rounded-lg w-[250px] h-[250px] md:w-[300px] md:h-[300px]"
         />
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl md:text-6xl font-normal">{t("title")}</h1>
-          <div className="mt-6 flex flex-col gap-2 text-xl md:text-2xl opacity-90">
+          <h1 className="text-5xl md:text-6xl font-normal">{t("title")}</h1>
+          <div className="mt-6 flex flex-col gap-3 text-2xl md:text-3xl opacity-90">
             <p>
               {t("address")} :{" "}
               <a
@@ -43,8 +43,23 @@ export default function Home() {
                 568 818 333
               </a>
             </p>
-            <p>
-              {t("instagram")} :{" "}
+            <p className="flex items-center justify-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+              :{" "}
               <a
                 href="https://www.instagram.com/tiali_ge/"
                 target="_blank"
@@ -54,8 +69,21 @@ export default function Home() {
                 @tiali_ge
               </a>
             </p>
-            <p>
-              {t("facebook")} :{" "}
+            <p className="flex items-center justify-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+              :{" "}
               <a
                 href="https://www.facebook.com/tiali.ge/"
                 target="_blank"
@@ -66,7 +94,7 @@ export default function Home() {
               </a>
             </p>
             <p>
-              {t("google")} :{" "}
+              Google :{" "}
               <a
                 href="https://share.google/hx9AUXPc7dtVEbkwP"
                 target="_blank"
